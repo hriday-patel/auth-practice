@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme{
+
+    --animate-hriday: hriday 0.3s linear;
+
+    @keyframes hriday{
+        0%{
+            transform: translateX(-3px);
+        }
+        50%{
+            transform: translateX(3px);
+        }
+        100%{
+            transform: translateX(-3px);
+        }
+    }
+}
